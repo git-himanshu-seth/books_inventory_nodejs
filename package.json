@@ -1,0 +1,19 @@
+{
+  "name": "books_inventory",
+  "version": "1.0.0",
+  "description": "This is an a mini project with nodejs and express for book inventory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/git-himanshu-seth/books_inventory_nodejs.git"
+  },
+  "author": "Himanshu seth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/git-himanshu-seth/books_inventory_nodejs/issues"
+  },
+  "homepage": "https://github.com/git-himanshu-seth/books_inventory_nodejs#readme"
+}
