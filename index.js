@@ -1,10 +1,9 @@
 const express = require("express");
+const ProductController = require("./src/controllers/product_controller");
 
 const server = express();
-
-server.get("/", (req, res) => {
-  return res.end("Welcome to books inventory.");
-});
+const productController = new ProductController();
+server.get("/", productController?.getProducts);
 
 server.listen("3300", (e) => {
   if (e) console.log(e);
