@@ -4,7 +4,8 @@
   "description": "This is an a mini project with nodejs and express for book inventory.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/git-himanshu-seth/books_inventory_nodejs/issues"
   },
-  "homepage": "https://github.com/git-himanshu-seth/books_inventory_nodejs#readme"
+  "homepage": "https://github.com/git-himanshu-seth/books_inventory_nodejs#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
 }
